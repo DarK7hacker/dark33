@@ -74,9 +74,7 @@ try:
     import time
 except:
     os.system('pip install time')
-else:
-    os.system('clear')
-    else:
+
         os.system('clear')
         from time import sleep
         import webbrowser, os, sys, requests
